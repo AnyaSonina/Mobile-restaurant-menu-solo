@@ -3,7 +3,6 @@ const sass = require('gulp-sass')(require('sass'))
 
 
 
-
 function buildStyles() {
   return src('sassfiles/**/*.scss')
   .pipe(sass())
@@ -18,3 +17,8 @@ function watchTask() {
 
 exports.default = series(buildStyles, watchTask)
 
+
+gulp.task('deploy', ['build'], function(e){
+  return gulp.src("index.js.build")
+    .pipe(deploy())
+})
