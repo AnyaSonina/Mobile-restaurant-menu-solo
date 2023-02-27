@@ -1,0 +1,30 @@
+#stars {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: $base-margin 0;
+  
+  a {
+    font-size: $p;
+    opacity:40%; 
+    cursor: pointer;  
+    &:hover {
+      opacity: 100%; 
+     
+    }
+    &:hover ~ a {
+      opacity:50%;
+    }
+
+    
+  }
+
+  &:hover a {
+    opacity: 100%; 
+  }
+}
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css"
+      integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Mobile Restaurant menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="slideshow-container">
+          <div class="mySlides">
+            <h1>Jimmy's Dinner</h1>
+            <h3>The best burgers and pizzas in town.</h3>
+          </div>
+          <div class="mySlides"></div>
+          <div class="mySlides"></div>
+        </nav>
+      </header>
+      <main id="root"></main>
+      <form action="" method="post" id="form_modal" name="myForm">
+        <h2>Enter card details</h2>
+        <input
+          type="text"
+          class="form-input"
+          placeholder="Enter you name"
+          required
+          name="name"
+        />
+        <input
+          type="number"
+          class="form-input"
+          placeholder="Enter your card number"
+          required
+        />
+        <input type="number" class="form-input" placeholder="CVV" required />
+        <button type="submit" id="pay_btn">Pay</button>
+      </form>
+    </div>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+#reviews_container {
+  flex-direction: column;
+  margin-top: $mg-lg;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+
+  #reviews_list {
+    flex-direction: column;
+    margin: auto;
+    margin-top: $mg-lg;
+    padding: $base-padding;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    .review_li {
+      padding: $base-padding * 2;
+      width: 60%;
+      margin-top: $base-margin;
+      box-shadow:rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;;
+      
+      .flex_container {
+       
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        .starts_container {
+          font-size: $p - 0.2rem;
+
+        }
+      }
+    }   
+  }
+}

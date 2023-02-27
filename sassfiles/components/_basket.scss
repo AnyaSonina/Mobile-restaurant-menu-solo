@@ -1,0 +1,53 @@
+#basket_layout {
+  display: none;
+
+  h3 {
+    color: $box-accent;
+  }
+
+  .title {
+    text-align: center;
+    margin: $mg-lg 0;
+  }
+
+  #basket {
+    padding: 0;
+  }
+
+  #buy_btn {
+   @include btn();   
+  }
+
+  .basket_total {
+    display: flex;
+    justify-content: space-between;
+    border-top: $base-border-thickness solid $primary;
+    padding-top: $base-margin * 1.4;    
+  }
+
+  .basket_li {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: $base-margin;
+
+    div {
+      display: flex;
+      gap: 13px;
+      align-items: center;
+    }
+
+    &:last-of-type {
+     margin-bottom: $mg-lg;
+    }
+    
+    #remove_btn {
+      background-color: transparent;
+      color: $secondary;
+      cursor: pointer;
+    }
+  }
+  
+}
+
+
+

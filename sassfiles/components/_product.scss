@@ -1,0 +1,36 @@
+.product {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: $base-border-thickness solid $base-accent;
+  justify-content: space-between;
+  padding: $section-padding 0;
+  width: 100%;
+  min-width: 350px;
+
+  .product-emoji {
+    opacity: 0.72;
+    height: 89px;
+    font-weight: 400;
+    font-size: 78.72px;
+    margin: $font-margin;
+    line-height: 98px;
+    display: flex;
+    align-items: center;
+    text-align: center;   
+    margin-right: $base-margin + 0.5;
+  }
+
+  .item_container {
+    display: flex;
+  }
+
+  i {
+    font-size: $h3;
+    font-weight: 400;
+    border: 1.5px solid $base-accent;
+    border-radius: 50%;
+    padding: $base-padding $base-padding+0.2 ;
+    margin-left: $base-margin;
+    cursor: pointer;
+  }
+}

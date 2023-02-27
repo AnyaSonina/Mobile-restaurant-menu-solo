@@ -1,0 +1,43 @@
+@use 'sass:math';
+
+#form_modal {
+  display: none; 
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -65%);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  width: 524px;
+  height: 542px;
+  flex-direction: column;
+  border-radius: $base-border-radius;
+  border: $base-border;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: $base-margin * 4 $base-margin * 2.4;
+  background-color: #fff;
+  filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+
+  .form-input {
+    border-radius: $base-border-radius;
+    color: $form-color;
+    border: math.div($base-border-thickness, 1.5);
+    margin: $base-margin * 2.4 0;
+    padding: $btn_padding;
+    width: 80%;
+    border: $base-border-thickness solid $form-color;
+
+    &:focus, :active {
+      outline: none;
+     border-color: $btn-color;
+     background-color: $order_acceptance__box;
+    }
+  }
+
+  #pay_btn{
+    @include btn($width:80%);
+    font-size: $p + 0.4;   
+  }
+}
