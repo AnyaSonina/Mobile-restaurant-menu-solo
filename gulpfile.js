@@ -19,6 +19,6 @@ exports.default = series(buildStyles, watchTask)
 
 
 gulp.task('deploy', ['build'], function(e){
-  return gulp.src("index.js.build")
+  return gulp.src("index.js.build", "index.css.build", "index.html.build")
     .pipe(deploy())
 })
