@@ -142,7 +142,7 @@ main {
   justify-content: center;
   align-content: center;
   position: fixed;
-  width: 524px;
+  max-width: 500px;
   height: 542px;
   flex-direction: column;
   border-radius: 3.8px;
