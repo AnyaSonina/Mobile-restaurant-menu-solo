@@ -18,8 +18,3 @@ function watchTask() {
 exports.default = series(buildStyles, watchTask)
 
 
-gulp.task('build', ['*.js::build', '*.css::build', '*.html:buid'])
-gulp.task('deploy', function(e){
-  return gulp.src(sources.build)
-    .pipe(deploy())
-})
