@@ -17,6 +17,8 @@
     "sass": "^1.58.2"
   },
   "dependencies": {
+    "gulp-connect": "^5.7.0",
+    "gulp-open": "^3.0.1",
     "sass-google-fonts": "^1.0.1"
   }
 }
