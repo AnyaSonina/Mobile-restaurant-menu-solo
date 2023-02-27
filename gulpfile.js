@@ -15,6 +15,6 @@ function watchTask() {
 
 }
 
-exports.default = series(buildStyles, watchTask)
+exports.buid = series(buildStyles, watchTask)
 
 
