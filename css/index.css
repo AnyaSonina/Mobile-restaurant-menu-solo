@@ -17,8 +17,9 @@ body {
   margin: 0;
 }
 
-.container {
+.container * {
   max-width: 500px;
+  width: 55%;
   margin: 3em auto;
   box-shadow: 0px 20px 70px #E9E9EA;
 }
@@ -136,12 +137,13 @@ main {
   display: none;
   position: fixed;
   left: 50%;
-  top: 55%;
-  transform: translate(-50%, -50%);
+  top: 45%;
+  transform: translate(-54.8%, -50%);
   align-items: center;
   justify-content: center;
   align-content: center;
   position: fixed;
+  width: 50%;
   max-width: 500px;
   height: 542px;
   flex-direction: column;
