@@ -92,11 +92,6 @@ main {
   color: red;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
