@@ -25,7 +25,7 @@
   .form-input {
     border-radius: $base-border-radius;
     color: $form-color;
-    border: math.div($base-border-thickness, 1.5);
+    border-width: 1px;
     margin: $base-margin * 2.4 0;
     padding: $btn_padding;
     width: 80%;
