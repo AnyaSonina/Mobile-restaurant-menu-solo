@@ -5,19 +5,17 @@
   justify-content: space-between;
   padding: $section-padding 0;
   width: 100%;
-  min-width: 350px;
-
+  
   .product-emoji {
     opacity: 0.72;
-    height: 89px;
-    font-weight: 400;
+    height: 89px;    
     font-size: 78.72px;
     margin: $font-margin;
     line-height: 98px;
     display: flex;
     align-items: center;
     text-align: center;   
-    margin-right: $base-margin + 0.5;
+    
   }
 
   .item_container {

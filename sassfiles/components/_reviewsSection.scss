@@ -21,13 +21,16 @@
       margin-top: $base-margin;
       box-shadow:rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;;
       
-      .flex_container {
-       
+      .flex_container {       
         justify-content: space-between;
         display: flex;
         align-items: center;
         gap: 10px;
         
+        @media screen and (max-width: 775px) {
+            flex-direction: column;
+        }
+
         .starts_container {
           font-size: $p - 0.2rem;
 
