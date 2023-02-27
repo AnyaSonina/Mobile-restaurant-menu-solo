@@ -1,5 +1,4 @@
 const { src, dest, watch, series } = require('gulp')
-
 const sass = require('gulp-sass')(require('sass'))
 
 function buildStyles() {
@@ -14,5 +13,4 @@ function watchTask() {
 
 }
 
-exports.default = series(buildStyles, watchTask)
 exports.build = series(buildStyles, watchTask)
