@@ -12,7 +12,7 @@ document.addEventListener("click", function(e) {
   }else if(e.target.dataset.remove) {
     removeProduct(e.target.dataset.remove)
   }else if(e.target.dataset.star) {
-    colorTheStart(e.target.dataset.star)
+    colorTheStars(e.target.dataset.star)
   }
 })
 
