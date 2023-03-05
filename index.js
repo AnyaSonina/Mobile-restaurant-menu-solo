@@ -153,7 +153,7 @@ formModal.addEventListener("submit", function(e) {
 
 
 
-function colorTheStart(starId) {
+function colorTheStars(starId) {
  
   let stars = document.querySelectorAll("#stars a")
   stars = [...stars]
